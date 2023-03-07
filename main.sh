@@ -1,7 +1,5 @@
 #!/bin/bash
-
 START=$(date +%s)
-
 apt update
 
 apt install software-properties-common -y
