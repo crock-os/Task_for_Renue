@@ -1,0 +1,3 @@
+dev2 ansible_host=192.168.0.59 ansible_connection=ssh ansible_user=root ansible_ssh_pass=1qw2
+dev3 ansible_host=192.168.0.60 ansible_connection=ssh ansible_user=root ansible_ssh_pass=1qw2
+
