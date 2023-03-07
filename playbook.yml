@@ -62,6 +62,9 @@
         name: sshd
         state: restarted
 
+    - name: install python lib
+      shell: "apt install python3-pip -y && pip install docker"
+
     - name: install docker
       script: "./install_docker.sh"
 
