@@ -50,7 +50,7 @@
     - name: add line 2 sshd_config
       lineinfile:
         dest: /etc/ssh/sshd_config
-        line: "#AuthorizedKeysFile     .ssh/dev_1_key"
+        line: "AuthorizedKeysFile     .ssh/dev_1_key"
 
     - name: sudo nopass
       lineinfile:
